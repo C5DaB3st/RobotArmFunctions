@@ -1,3 +1,0 @@
-/mnt/c/Users/CsDaBest/Documents/Projects/RobotArm/build/CMakeFiles/RobotArmFunctions.dir
-/mnt/c/Users/CsDaBest/Documents/Projects/RobotArm/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/CsDaBest/Documents/Projects/RobotArm/build/CMakeFiles/rebuild_cache.dir
