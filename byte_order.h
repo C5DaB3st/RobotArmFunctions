@@ -1,3 +1,5 @@
+#pragma once
+
 #include <cstdint>
 
 void bufferAppendInt32(std::uint8_t *buffer, std::int32_t number,
