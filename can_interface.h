@@ -13,16 +13,16 @@ enum CAN_PACKET_ID {
 };
 
 class Can {
-  int sockFD{-1};
-  static constexpr float posScale = 10000.0f;
-  static constexpr float speedNormDivisor = 10.0f;
-
 public:
-  Can();
+  explicit Can(const std::string &ifaceName = "vcan0");
   ~Can();
+
+  Can(const Can &) = delete;
+  Can &operator=(const Can &) = delete;
+  
   void comm_can_transmit_eid(std::uint32_t id, const std::uint8_t *data,
                              std::size_t len);
-  void encodeCAN(std::uint8_t motorID, float angle, std::int16_t speed,
-                 std::uint16_t accel, CAN_PACKET_ID controlMode);
-  CAN_PACKET_ID packetID;
-}; // namespace Can
+  void encodeCAN(std::uint8_t motorID, float angle, float speed, float accel,
+                 CAN_PACKET_ID controlMode);
+ 
+};
