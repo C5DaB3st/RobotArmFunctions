@@ -1,3 +1,5 @@
+#pragma once 
+
 #include <cstdint>
 #include <linux/can.h>
 #include <sys/socket.h>
