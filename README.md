@@ -1,5 +1,4 @@
-# CAN-bus control software for a 6-DOF robotic arm built on CubeMars AK10-9
-# actuators, written for a robotics project for Robotics@UH.
+# CAN-bus control software for a 6-DOF robotic arm built on CubeMars AK10-9 actuators, written for a robotics project for Robotics@UH.
 
 ## What this actually is
 
